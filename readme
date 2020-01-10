@@ -1,12 +1,87 @@
+superuser@superuser-VirtualBox:~/lucelu$
 superuser@superuser-VirtualBox:~/lucelu$ g++ -o test_cnd test_cnd.cpp  -lpthread
 superuser@superuser-VirtualBox:~/lucelu$ ./test_cnd
+[main  96]: LOG start all
 [thread_fota_proc  41]: LOG fota thread suspend
-[main  97]: LOG wake up fota thread in main
+[main  100]: LOG --- wake up fota thread in main start at 0 ----
 [wakeup_fota_thread  71]: LOG wake up fota thread
 [wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
 [thread_fota_proc  45]: LOG fota thread run
 [thread_fota_proc  48]: LOG send_req_to_fota_server()
 [sleepdown_fota_thread  30]: LOG sleepdown fota thread
 [thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 0 ----
+[main  100]: LOG --- wake up fota thread in main start at 1 ----
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 1 ----
+[main  100]: LOG --- wake up fota thread in main start at 2 ----
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 2 ----
+[main  100]: LOG --- wake up fota thread in main start at 3 ----
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 3 ----
+[main  100]: LOG --- wake up fota thread in main start at 4 ----
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 4 ----
+[main  100]: LOG --- wake up fota thread in main start at 5 ----
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 5 ----
+[main  100]: LOG --- wake up fota thread in main start at 6 ----
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 6 ----
+[main  100]: LOG --- wake up fota thread in main start at 7 ----
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 7 ----
+[main  100]: LOG --- wake up fota thread in main start at 8 ----
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 8 ----
+[main  100]: LOG --- wake up fota thread in main start at 9 ----
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  103]: LOG --- wake up fota thread in main end at 9 ----
+[main  105]: LOG end all
 superuser@superuser-VirtualBox:~/lucelu$
-

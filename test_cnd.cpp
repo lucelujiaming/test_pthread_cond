@@ -93,9 +93,16 @@ int main()
         LOG_F("fota check thread create fails");
         return rc;
     }
+    LOG_D("start all");
     sleep(1);
-    LOG_D("wake up fota thread in main");
-    wakeup_fota_thread(FOTA_CHECK);
+	for(int i = 0; i < 10; i++)
+	{
+		LOG_D("--- wake up fota thread in main start at %d ----", i);
+		wakeup_fota_thread(FOTA_CHECK);
+		sleep(1);
+		LOG_D("--- wake up fota thread in main end at %d ----", i);
+	}
+    LOG_D("end all");
     sleep(1);
     return 0;
 }

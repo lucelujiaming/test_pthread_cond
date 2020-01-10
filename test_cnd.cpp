@@ -96,6 +96,7 @@ int main()
     sleep(1);
     LOG_D("wake up fota thread in main");
     wakeup_fota_thread(FOTA_CHECK);
+    sleep(1);
     return 0;
 }
 

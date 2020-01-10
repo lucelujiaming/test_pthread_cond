@@ -1,0 +1,12 @@
+superuser@superuser-VirtualBox:~/lucelu$ g++ -o test_cnd test_cnd.cpp  -lpthread
+superuser@superuser-VirtualBox:~/lucelu$ ./test_cnd
+[thread_fota_proc  41]: LOG fota thread suspend
+[main  97]: LOG wake up fota thread in main
+[wakeup_fota_thread  71]: LOG wake up fota thread
+[wakeup_fota_thread  74]: LOG clear_fota_devices() and create_fota_check_req_data()
+[thread_fota_proc  45]: LOG fota thread run
+[thread_fota_proc  48]: LOG send_req_to_fota_server()
+[sleepdown_fota_thread  30]: LOG sleepdown fota thread
+[thread_fota_proc  41]: LOG fota thread suspend
+superuser@superuser-VirtualBox:~/lucelu$
+
